@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    padding: 200px;
+    color: white;
+}
+
+input, button {
+    padding: 30px;
+    width: 100%;
+}
+
+label {
+    padding: 20px;
+    margin: 50px 20px;
+    color: green;
+}

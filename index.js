@@ -3,7 +3,7 @@ var bodyParser = require('body-parser');
 var multer = require('multer');
 var upload = multer();
 var app = express();
-var port = process.env.port || 3000;
+var port = process.env.PORT || 3000;
 //css
 app.use(express.static('public'));
 

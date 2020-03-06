@@ -29,7 +29,8 @@ app.post('/', function(req, res){
    console.log(req.body);
    //res.send("recieved your request!  "+ req.body.say); 
    res.render('answer', {
-       title : req.body.say
+       title : req.body.say,
+       to : req.body.to
    })
 });
 
